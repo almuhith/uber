@@ -1,0 +1,70 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background: #ecf0f1;
+    
+}
+.container{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.cupon-card{
+    padding: 40px 80px;
+    background: linear-gradient(135deg, #7158fe, #9b4de6);
+    color: #fff;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 12%;
+    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0,0.2);
+    position: relative;
+}
+.cupon-card .logo{
+    width: 90px;
+    height: 70px;
+    border-radius: 10px;
+    margin-left: 32%;
+    margin-bottom: 30px;
+}
+.cupon-card h3{
+    font-size: 20px;
+    line-height: 30px;
+}
+.cupon-card .cupon-row{
+    margin: 55px 0px;
+}
+.cupon-card .cupon-row .cuponCd{
+    border: 1px dashed #fff;
+    padding: 15px 20px;
+    border-right: 0;
+}
+.cupon-card .cupon-row .cuponBtn{
+    background: #fff;
+    padding: 15px 20px;
+    color: #7158fe;
+    font-weight: bold;
+    cursor: pointer;
+    border: 1px solid #fff;
+}
+.cupon-card p{
+    font-weight: 400;
+}
+.circle1, .circle2{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    background: #ecf0f1;
+    border-radius: 50%;
+    top: 50%;
+    transform: translatey(-50%);
+}
+.circle1{
+    left: -25px;
+}
+.circle2{
+    right: -25px;
+}
